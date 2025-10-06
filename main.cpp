@@ -38,6 +38,8 @@ int main() {
         return 1;
     }
 
+    cout << "Non fast forward"<< endl;
+
     cout<<"Prva sprememba\n";
     cout << "Rezultat: " << result << endl;
     return 0;
