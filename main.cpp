@@ -37,7 +37,7 @@ int main() {
         cout << "Napaka! Neznan operator." << endl;
         return 1;
     }
-
+    cout << "NFF\n" << endl;
     cout << "Non fast forward"<< endl;
 
     cout<<"Prva sprememba\n";
