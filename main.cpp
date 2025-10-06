@@ -1,6 +1,10 @@
 #include<iostream>
 using namespace std;
 
+int ostanek(int a,int b)
+{
+    return a%b;
+}
 
 int main() {
     double num1, num2;
@@ -24,11 +28,17 @@ int main() {
             cout << "Napaka! Deljenje z 0." << endl;
             return 1;
         }
-    } else {
+    }else if (op=='%')
+    {
+        result = ostanek(num1, num2);
+    }
+
+    else {
         cout << "Napaka! Neznan operator." << endl;
         return 1;
     }
 
+    cout<<"Prva sprememba\n";
     cout << "Rezultat: " << result << endl;
     return 0;
 }
