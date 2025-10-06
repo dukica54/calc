@@ -38,6 +38,8 @@ int main() {
         return 1;
     }
 
+    cout <<" Konflikt";
+
     cout<<"Prva sprememba\n";
     cout << "Rezultat: " << result << endl;
     return 0;
