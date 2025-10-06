@@ -38,7 +38,7 @@ int main() {
         return 1;
     }
 
-    cout<<"Prva sprememba\n";
+
     cout << "Rezultat: " << result << endl;
     return 0;
 }
