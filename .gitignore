@@ -1,0 +1,11 @@
+# Binarne datoteke
+*.exe
+*.o
+*.obj
+
+# IDE datoteke (CLion)
+.idea/
+cmake-build-debug/
+
+# Dnevniški fajli
+*.log
