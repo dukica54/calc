@@ -39,7 +39,7 @@ int main() {
     }
     cout << "NFFFFFFF\n" << endl;
     cout << "Non fast forward"<< endl;
-
+    cout<<"";
     cout<<"Prva sprememba\n";
     cout << "Rezultat: " << result << endl;
     return 0;
