@@ -37,6 +37,7 @@ int main() {
         cout << "Napaka! Neznan operator." << endl;
         return 1;
     }
+    cout << result << endl;
     cout << "NFF\n" << endl;
     cout << "Non fast forward"<< endl;
     cout << num1 << endl;
