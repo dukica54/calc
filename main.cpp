@@ -42,5 +42,6 @@ int main() {
 
     cout<<"Prva sprememba\n";
     cout << "Rezultat: " << result << endl;
+    cout<<" !!!!";
     return 0;
 }
