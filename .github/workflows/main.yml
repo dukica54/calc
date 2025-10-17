@@ -1,0 +1,16 @@
+name: Build and Test C++ Kalkulator
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Build kalkulator
+        run: |
+          g++ main.cpp -o kalkulator
+          ./kalkulator
